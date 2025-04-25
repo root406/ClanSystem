@@ -1,0 +1,6 @@
+MySQL:
+  Host: '127.0.0.1'
+  Port: 3306
+  Username: 'root'
+  Database: 'LobbySystem'
+  Passowrd:  ''

@@ -1,0 +1,32 @@
+name: ClanSystem
+version: '1.0-SNAPSHOT'
+main: de.joel.clansystem.ClanSystem
+api-version: '1.21'
+authors: [ 6tea9ine ]
+description: Clan System for SpaceportX
+softdepend: ["PlaceholderAPI"]
+
+commands:
+  clan:
+    description: Manage your clan
+    usage: /<clan>
+  clanadmin:
+    description: Manage other Clans
+    usage: /<clanadmin>
+
+permissions:
+  clansystem.admin:
+    default: op
+    description: "Benutze den Admin command"
+  clansystem.admin.ban:
+    default: op
+    description: "Banne einen Clannamen"
+  clansystem.admin.delete:
+    default: op
+    description: "Lösche einen Clan"
+  clansystem.admin.unban:
+    default: op
+    description: "Entbanne ein Clannamen"
+  clansystem.admin.list:
+    default: op
+    description: Liste alle vorhanden Clans auf.
